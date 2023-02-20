@@ -33,10 +33,7 @@ public class Nearest_Ans {
     public void traverse(TreeNode node, ArrayList<TreeNode> path, TreeNode tar ){
         path.add(node);
         if(node == tar){
-            // System.out.println(path.size());
             pathL.add(new ArrayList<>(path));
-            // System.out.println(pathP.size());
-            // path.remove(path.size()-1);
             return;
 
         }
