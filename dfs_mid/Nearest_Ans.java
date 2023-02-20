@@ -1,10 +1,11 @@
 package dfs_mid;
 import java.util.ArrayList;
 import java.util.List;
+import utils.TreeNode;
 
 public class Nearest_Ans {
     List<List<TreeNode>> pathL = new ArrayList<>();
-    // ArrayList<TreeNode> pathQ = new ArrayList<>();
+    // ArrayList<utils.TreeNode> pathQ = new ArrayList<>();
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         ArrayList<TreeNode> path1 = new ArrayList<>();
