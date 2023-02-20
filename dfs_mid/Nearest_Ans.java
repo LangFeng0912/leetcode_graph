@@ -1,11 +1,8 @@
 package dfs_mid;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
-public class TreeNode {
-    int val;
-   TreeNode left;
-   TreeNode right;
-   TreeNode(int x) { val = x; }
- * }
 public class Nearest_Ans {
     List<List<TreeNode>> pathL = new ArrayList<>();
     // ArrayList<TreeNode> pathQ = new ArrayList<>();
