@@ -13,6 +13,8 @@ public class Codec {
     }
 
     // Decodes your encoded data to tree.
+    //反序列化也是通过dfs实现，通过链表，处理第一个，拿出来，左，右
+    //Integer.valueOf(String)
     public TreeNode deserialize(String data) {
         String[] strArr = data.split("_");
         List<String> list = Arrays.asList(strArr);
