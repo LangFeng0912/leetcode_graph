@@ -2,6 +2,9 @@ package LRU;
 
 import java.util.HashMap;
 
+//双向链表 + 哈希表
+// 链表结构 node<key,val> ->/<- node<key,value>
+// 哈希表结构 <key,Node>
 public class LRUCache {
     HashMap<Integer, Node> map ;
     int size;
