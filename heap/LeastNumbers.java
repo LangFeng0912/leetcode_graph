@@ -1,5 +1,7 @@
 package heap;
 
+import java.util.PriorityQueue;
+
 public class LeastNumbers {
     public int[] getLeastNumbers(int[] arr, int k) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
