@@ -8,7 +8,7 @@ public class KthLargest {
         // Arrays.sort(nums);
         // return nums[nums.length-k];
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(new Comparator<Integer>(){
-            @Override
+//            @Override
             public int compare(Integer o1, Integer o2) {
                 return o2-o1;
             }
